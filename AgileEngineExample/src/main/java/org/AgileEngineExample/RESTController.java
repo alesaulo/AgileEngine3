@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-public class HelloController {	
+public class RESTController {	
 	
 	@RequestMapping("/search/{searchTerm}")
 	public String index(@PathVariable("searchTerm") String searchTerm) {
